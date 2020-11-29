@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+header {
+	width : 100%;
+	padding: 30px; 
+  	text-align: center; 
+  	background: white; 
+  	color: black;
+  	height : 100px;
+}
+header > a {
+	font-size : 40px;		
+	text-decoration: none;
+}
+body {
+   margin: 0;
+   padding: 0;
+}
+*,*::before,*::after{
+   box-sizing: border-box;
+}
+nav {
+	width : 100%;
+   	overflow: hidden;
+   	background-color: white;
+}
+nav a {
+   float: left;
+   font-size: 14px;
+   color: black;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+.dropdown {
+   float: left;
+   overflow: hidden;
+}
+.dropdown .megaButton {
+   font-size: 14px;
+   border: none;
+   outline: none;
+   color: black;
+   padding: 14px 16px;
+   background-color: white;
+   margin: 0;
+}
+nav a:hover, .dropdown:hover .megaButton {
+   background-color: #f1f1f1;
+}
+.megaContent {
+   text-align: center;
+   display: none;
+   position: absolute;
+   background-color: #f1f1f1;
+   width: 100%;
+   left: 0;
+   z-index: 1;
+}
+.megaContent {
+   background: #f1f1f1;
+   padding: 16px;
+   color: black;
+}
+.dropdown:hover .megaContent {
+   display: block;
+}
+.megaColumn {
+   float: left;
+   width: 100%;
+   padding: 10px;
+   background-color: #f1f1f1;
+   height: 100px;
+}
+.megaColumn .links {
+   color: black;
+   padding: 16px;
+   margin:10px;
+   text-decoration: none;
+   display: block;
+   text-align: left;
+   border-bottom: 4px solid rgb(69, 0, 90);
+}
+.megaColumn a:hover {
+   background-color: white;
+}
+.megaRow:after {
+   content: "";
+   display: table;
+   clear: both;
+}

@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+
+body{
+	text-align : center;
+}
+table {
+	width : 1000;
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align : center;
+	margin : auto;
+}
+td{
+	border-bottom : 1px solid black;
+	padding : 10px;
+}
+.listsubject_menu{
+	width : 400px;
+}
+td.listsubject{
+	text-align : left;
+}
+.hd{
+	border : 1px solid black;
+	background: #eee;	
+}
+td.writeId{
+	text-align : left;
+}
+input[type=text],input[type=password]{
+	float:left;
+}
+textarea{
+	float:left;
+	width : 500px;
+	height : 400px;
+}
+input[type=button], input[type=submit], input[type=reset]{
+	cursor : pointer;
+	text-decoration : none;
+	text-align : center;
+	border: 2px solid #e7e7e7;
+	padding : 5px 10px;
+	transition-duration : 0.4s;
+	background-color : white;
+	color : black;
+	display : inlin-block;	
+}
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover{
+	background-color: #e7e7e7;
+}
+button{
+	cursor : pointer;
+	text-decoration : none;
+	text-align : center;
+	border: 2px solid #e7e7e7;
+	padding : 5px 10px;
+	transition-duration : 0.4s;
+	background-color : white;
+	color : black;
+	display : inlin-block;	
+}
+button:hover{
+	background-color: #e7e7e7;
+}
+.listbt{
+	float:right;
+}
+b{
+	text-align : center;
+}
+.search{
+	border: 0;
+	width : 400px;
+	text-align : center;
+	margin:0 auto;
+	
+
+}
+A:link {text-decoration:none;color:#696969}
+A:hover{text-decoration:yes;color:#66CCFF}
+
+
