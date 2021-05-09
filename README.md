@@ -16,6 +16,11 @@
 - Naver Mail API
 
 ## Image
-![image49](https://user-images.githubusercontent.com/72012602/117566785-a7947d00-b0f3-11eb-8d08-8aa637ba715d.png)
+- Main Page
 ![image43](https://user-images.githubusercontent.com/72012602/117566786-a8c5aa00-b0f3-11eb-8e85-8777de457575.png)
+
+- Admin Page
+![image49](https://user-images.githubusercontent.com/72012602/117566785-a7947d00-b0f3-11eb-8d08-8aa637ba715d.png)
+
+- Shop Page
 ![image47](https://user-images.githubusercontent.com/72012602/117566787-a95e4080-b0f3-11eb-911c-ec2b3478e602.png)
