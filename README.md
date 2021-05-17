@@ -1,21 +1,30 @@
-# Team Project Animal Website
+# 팀 프로젝트 애니멀
 
-## Develop Tools
+## 기능
+- 찜하기 기능과 분양신청 기능
+- 관리자가 분양승인 및 거절하면 사용자에게 이메일로 알림
+
+## 개발환경
 - Eclipse 2019-12(4.14.0)
 - java JDK 1.8.0
 - Tomcat 8.5
 - Oracle 11
 
-## Schedule
+## 일정
 - 2020-10-22 ~ 2020-11-23
 
-## Introduce
-- Animal Receive Website
+## 설명
+- 동물 분양 웹 사이트
+- 5인 팀 프로젝트
 - MVC 1 Pattern
 - Kakao Map API
 - Naver Mail API
 
-## Image
+## 담당기능
+- 동물 분양 기능
+- 관리자페이지
+
+## 사진
 - Main Page
 ![image43](https://user-images.githubusercontent.com/72012602/117566786-a8c5aa00-b0f3-11eb-8e85-8777de457575.png)
 
